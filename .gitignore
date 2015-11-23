@@ -3,3 +3,5 @@
 /deps
 erl_crash.dump
 *.ez
+README.html
+.DS_Store
