@@ -8,6 +8,7 @@ defmodule Oct.Mixfile do
      aliases: aliases,
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
+     preferred_cli_env: [install: :prod],
      deps: deps]
   end
 
